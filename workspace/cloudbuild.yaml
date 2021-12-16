@@ -1,6 +1,6 @@
 steps:
   - id: docker-compose-up
-    name: gcr.io/$PROJECT_ID/docker-compose
+    name: gcr.io/kdc-sd-kk003-211119/docker-compose
     args: [
       'up',
       '-d'
